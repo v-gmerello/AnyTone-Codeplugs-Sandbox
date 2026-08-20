@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+*.key
+*.pem
+credentials*
+secrets*
+
+# Real radio data is private by default. Only reviewed test fixtures are allowed.
+*.rdt
+*.csv
+!backend/src/test/resources/fixtures/**/*.rdt
+!backend/src/test/resources/fixtures/**/*.csv
+local-data/
+
+# Frontend dependencies and output
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Backend output
+backend/target/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
