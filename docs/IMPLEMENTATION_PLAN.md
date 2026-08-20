@@ -302,9 +302,8 @@ and API/configuration documentation.
 - Jobs do not deploy or require secrets.
 - Local commands and CI commands agree.
 
-**Result:** CI configuration and matching local gates are complete. The first
-GitHub-hosted execution remains pending until the changes are pushed or opened
-as a pull request.
+**Result:** CI configuration and matching local gates are complete. GitHub
+Actions run `32393537347` passed for scaffold commit `e3035e1`.
 
 ### Phase 9 - Architecture Review
 
@@ -520,7 +519,7 @@ and radio read-back evidence.
 - [x] Frontend lint, tests, and production build pass.
 - [x] Backend tests and package build pass on Java 21.
 - [x] Health integration works through configured local CORS.
-- [ ] CI repeats all local validation gates.
+- [x] CI repeats all local validation gates.
 - [x] No secrets, real codeplugs, personal data, or build artifacts are tracked.
 - [x] Markdown links and diagrams render correctly.
 - [x] Current state, codebase summary, plan, and changelog match the code.

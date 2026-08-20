@@ -5,7 +5,7 @@ dependencies live in [Implementation Plan](IMPLEMENTATION_PLAN.md).
 
 ## Phase 1 - Core Scaffold
 
-**Status:** COMPLETED locally; remote CI observation pending.
+**Status:** COMPLETED.
 
 - React/Vite frontend and Spring Boot backend.
 - Health API and browser status workflow.

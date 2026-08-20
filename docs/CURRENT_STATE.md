@@ -23,7 +23,7 @@ a centralized REST client. Processing is designed to remain local and stateless.
 
 ## Partially Implemented
 
-- CI is configured but has not yet been observed on GitHub-hosted runners.
+- None in the scaffold milestone.
 
 ## Not Implemented
 
@@ -39,7 +39,6 @@ a centralized REST client. Processing is designed to remain local and stateless.
 
 ## Technical Debt
 
-- Add live CI evidence after the first push or pull request.
 - Add RDT evidence and validation documents when format research begins.
 - Replace license and security contact placeholders before public distribution.
 
@@ -80,7 +79,7 @@ a centralized REST client. Processing is designed to remain local and stateless.
 - Backend tests and executable JAR packaging pass locally on Java 21.
 - Live smoke validation passed on ports 5173 and 8080: the health endpoint
   returned HTTP 200, `{"status":"UP"}`, and the configured CORS origin.
-- GitHub Actions status is pending its first remote run.
+- GitHub Actions run `32393537347` passed for scaffold commit `e3035e1`.
 
 ## Recent Architecture Decisions
 
@@ -92,5 +91,4 @@ a centralized REST client. Processing is designed to remain local and stateless.
 ## Next Recommended Action
 
 Collect sanitized one-variable RDT fixtures and exact CPS, firmware, and region
-metadata for Phase 10 (Controlled RDT Format Research). Push or open a pull
-request when appropriate to obtain the first GitHub-hosted CI result.
+metadata for Phase 10 (Controlled RDT Format Research).
